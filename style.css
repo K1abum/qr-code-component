@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
+:root{
+--white: hsl(0, 0%, 100%);
+--light-gray: hsl(212, 45%, 89%);
+--grayish-blue: hsl(220, 15%, 55%);
+--dark-blue: hsl(218, 44%, 22%);
+}
+
+*{
+    box-sizing: border-box;
+    background-color: var(--light-gray);
+}
+
+.body{
+    width: 350px;
+    background-color: var(--white);
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 50px auto;
+ }
+
+
+.card{
+    width: 90%;
+    background-color: var(--white);
+    margin: 50px auto;
+    margin-top: 5%;
+    align-items: center;
+ }
+
+ .qr-image{
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.title{
+    background-color: var(--white);
+    color: var(--dark-blue);
+    font-family: "Outfit";
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.paragraph{
+    background-color: var(--white);
+    color: var(--grayish-blue);
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+.attribution { 
+   font-size: 11px; text-align: center; 
+}
